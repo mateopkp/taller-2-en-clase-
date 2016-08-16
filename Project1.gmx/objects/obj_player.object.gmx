@@ -58,20 +58,25 @@ jumpspeed=7;
 key_right = keyboard_check(vk_right);
 key_left = keyboard_check(vk_left);
 key_space = keyboard_check_pressed(vk_space);
-//colison horizontal
+
+
+move = key_right-key_left;
+if (-move){sprite_index = spr_player_iz }
+if(move){sprite_index = spr_player_der}
+hsp = move *movespeed;
+ //colison h
 if(place_meeting(x+hsp,y,obj_wall))
      {
      while(!place_meeting(x+sign(hsp),y,obj_wall))
          {
          x+=sign(hsp);
          }
+         hsp=0;
      }
-hsp=0;
-move = key_right-key_left;
-if (-move){sprite_index = spr_player_iz }
-if(move){sprite_index = spr_player_der}
-hsp = move *movespeed;
+
 x += hsp;
+
+
 
 if(vsp &lt; 10) {vsp += grav;}
 if(place_meeting(x,y+1,obj_wall))
