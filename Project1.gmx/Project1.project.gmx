@@ -5,9 +5,26 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_player_iz</sprite>
+    <sprite>sprites\spr_player_der</sprite>
+    <sprite>sprites\spr_salto</sprite>
+    <sprite>sprites\spr_caida</sprite>
+    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_goal</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_wall</object>
+    <object>objects\obj_goal</object>
+    <object>objects\obj_player</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
