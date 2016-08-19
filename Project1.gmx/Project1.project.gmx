@@ -12,6 +12,7 @@
     <sprite>sprites\spr_caida</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_goal</sprite>
+    <sprite>sprites\spr_enemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -21,9 +22,12 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_goal</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_inicio</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\inicio</room>
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
