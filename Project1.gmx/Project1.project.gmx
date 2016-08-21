@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player_iz</sprite>
+    <sprite>sprites\sprite10</sprite>
     <sprite>sprites\spr_player_der</sprite>
     <sprite>sprites\spr_salto</sprite>
     <sprite>sprites\spr_caida</sprite>
@@ -15,6 +16,7 @@
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_lifebar</sprite>
     <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\sprite9</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -28,6 +30,7 @@
     <object>objects\obj_controller_life</object>
     <object>objects\obj_enemy_controller</object>
     <object>objects\obj_enemy</object>
+    <object>objects\object7</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\inicio</room>
