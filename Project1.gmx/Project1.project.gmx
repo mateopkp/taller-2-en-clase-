@@ -31,6 +31,7 @@
     <object>objects\obj_enemy_controller</object>
     <object>objects\obj_enemy</object>
     <object>objects\object7</object>
+    <object>objects\object8</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\inicio</room>
