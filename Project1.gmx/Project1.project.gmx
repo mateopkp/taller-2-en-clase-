@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_explo</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player_iz</sprite>
     <sprite>sprites\sprite10</sprite>
@@ -17,6 +19,8 @@
     <sprite>sprites\spr_lifebar</sprite>
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\spr_bala</sprite>
+    <sprite>sprites\sprite12</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -32,10 +36,12 @@
     <object>objects\obj_enemy</object>
     <object>objects\object7</object>
     <object>objects\object8</object>
+    <object>objects\obj_bala</object>
+    <object>objects\obj_explo</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\inicio</room>
     <room>rooms\room0</room>
+    <room>rooms\inicio</room>
     <room>rooms\room1</room>
   </rooms>
   <help>
