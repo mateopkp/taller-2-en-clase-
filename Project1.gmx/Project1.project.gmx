@@ -21,6 +21,7 @@
     <sprite>sprites\sprite9</sprite>
     <sprite>sprites\spr_bala</sprite>
     <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\explo_myplane</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -38,10 +39,12 @@
     <object>objects\object8</object>
     <object>objects\obj_bala</object>
     <object>objects\obj_explo</object>
+    <object>objects\object11</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
     <room>rooms\inicio</room>
+    <room>rooms\room3</room>
     <room>rooms\room1</room>
   </rooms>
   <help>
